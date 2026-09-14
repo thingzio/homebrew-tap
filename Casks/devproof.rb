@@ -6,25 +6,25 @@ cask "devproof" do
     end
   end
 
-  version "0.4.0"
+  version "0.4.1"
 
   on_macos do
     on_arm do
-      sha256 "eaa56bd8227828fb7cfb58954ee1532c3462de341abcfb9a1e6f5230f83c1e95"
+      sha256 "8971b9d5ed020e7c9248e021fd33d42e171d84ffe3b86bf432eb7123ac6afd3e"
       url "https://github.com/thingzio/devproof/releases/download/v#{version}/devproof_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "9ff7bd027f701576c52710e4d716fc540a91a599fa5697c8d2c1bdf9ca27b650"
+      sha256 "160c5c0101ec9573278765df08a3c38e3fc336376aec37e4ffb724115ec10c04"
       url "https://github.com/thingzio/devproof/releases/download/v#{version}/devproof_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "e8f25cf4d9637123178eb25d2d82477b6ee15bb5e00eec3ad665600ddb6993db"
+      sha256 "5232cd43bf842bed90cff4f66008a433b10e4af61c8760500579a2d60ade41cf"
       url "https://github.com/thingzio/devproof/releases/download/v#{version}/devproof_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "40ac2772b6cc791b3f842040dd73491845b1fc7d9b16aea73ab6dcba6ba79eb7"
+      sha256 "d6df9955138749414505953c7c763b1ffe877334eb4c0063cce1d730e071a924"
       url "https://github.com/thingzio/devproof/releases/download/v#{version}/devproof_#{version}_linux_amd64.tar.gz"
     end
   end
