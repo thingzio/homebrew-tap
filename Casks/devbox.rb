@@ -6,25 +6,25 @@ cask "devbox" do
     end
   end
 
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_arm do
-      sha256 "f8c441645ad451ba145044bd7188d5e72895e24e3e60e90e0981608842cf21fb"
+      sha256 "03f2e13d1dac3e36414a1111971181a3b6d790b924846c57d3ac97db6d840d44"
       url "https://github.com/thingzio/devbox/releases/download/v#{version}/devbox_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "259f07d64041792a46ee3a1a8cb429e12445d53239d1f0db5137da218ae1c279"
+      sha256 "12e0a25bcf2d2ecd4e6783161f8897ae86310f8f631cde0e665b6888d736cab9"
       url "https://github.com/thingzio/devbox/releases/download/v#{version}/devbox_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "52b808b5543e1a9d5a8b8638cb68cd3523d4b6a66a6141c42210b50e6143f0e3"
+      sha256 "221959370497defd72a6689ff477a1f8aeb72b2f3b98a40ed0a92dde6cd02f25"
       url "https://github.com/thingzio/devbox/releases/download/v#{version}/devbox_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "8586ae7fa59bbb138fd6c92e2a980c70f1c55e1a589bcc2c41f5a6fcffd1db75"
+      sha256 "dceda93c6bafe8d04d5ff10d036448fb251e762a12c4502fc509739f497b0d30"
       url "https://github.com/thingzio/devbox/releases/download/v#{version}/devbox_#{version}_linux_amd64.tar.gz"
     end
   end
